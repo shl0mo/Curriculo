@@ -242,7 +242,7 @@
 					<li>Arquitetura MCV</li>
 					<li>Web Services e API</li>
 					<li>Laravel</li>
-					<li>Bancos de dados relacionais e PHP</li>
+					<li>MySQL no PHP</li>
 				</ul>
 			</p>
 			</ul>");
