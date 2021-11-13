@@ -31,7 +31,7 @@
 			font-size: 13pt;
 			color: white;
 			weight: 15;
-		}
+		
 		
 		.ul-contato {
 			margin-top: 20px;
