@@ -3,6 +3,7 @@
 	
 	$mpdf = new Mpdf\Mpdf();
 	$mpdf->WriteHTML("<style>
+		
 		* {
 			margin: 0;
 			padding: 0;
@@ -14,39 +15,45 @@
 		}
 		
 		body {
-			font-family: Courier;
+			font-family: Calibri;
 			line-height: 22px;
 		}
-		.nome {
-			position: relative;
-			color: white;
-			text-align: center;
-			font-size: 35pt;
-		}
-
-		.ocupacao {
-			position: relative;
-			text-align: justify;
-			align-self: center;
-			font-size: 13pt;
-			color: white;
-			weight: 15;
+		
+		.container-nome {
+			padding-top: 70px;
+			padding-left: 45px;
 		}
 		
+		.nome {
+			position: relative;
+			color: black;
+			font-size: 22pt;
+			font-weight: bold;
+			margin-bottom: 5px;
+			
+		}
+		
+		.o-m {
+			color: gray;
+		}
+		
+		.titulo-sessao {
+			color: black;
+			font-size: 17pt;
+		}
+				
 		.ul-contato {
 			margin-top: 20px;
 		}
 		
 		.container-header {
-			background-color: rgb(89, 40, 89);/*rgb(69, 104, 152);*/
-			width: 100%;
-			height: 250px;
+			position: absolute;
+			background-color: #03071e;
+			width: 29%;
+			height: 100%;
 			padding: 20px;
-		}
-		
-		.titulo-secao {
-			font-size: 20pt;
-			color: rgb(89, 40, 89);/*rgb(69, 104, 152);*/
+			left: 525px;
+			z-index: 10;
 		}
 		
 		.contatos-negocios {
@@ -58,9 +65,10 @@
 		}
 		
 		.container-secao {
-			padding-left: 35px;
+			padding-left: 45px;
 			padding-right: 35px;
 			margin-bottom: 5px;
+			margin-right: 280px;
 		}
 		
 		.descricao-secao {
@@ -134,19 +142,30 @@
 			height: 100px;
 			background-color: rgb(89, 40, 89);
 		}
+		
+		.cargo {
+			padding-top: 10px;
+		}
+		
+		.formacao {
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+		
+		.periodos {
+			color: gray;
+			
+		}
 		</style>");
 	$mpdf->WriteHTML("<body>");
 	$mpdf->WriteHTML("<div class='container-header'>
-				<h1 class='nome'>Salomão Cruz</h1>
-				<div class='ocupacao'>Estudante de Engenharia da Computação</div>
-				<ul class='ul-contato'>
-					<li class='item-1 item'>Celular: (68)9255-6033</li>
-					<li class='item-2 item'>E-mail: scc@icomp.ufam.edu.br</li>
-					<li class='item-3 item'>GitHub: https://github.com/shl0mo</li>
-					<li class='item-4 item'>LinkedIn: https://www.linkedin.com/in/salomao-cruz</li>
-				</ul>
 			</div>");
-	$mpdf->WriteHTML("<div class='container-secao'><h2 class='titulo-secao'>Perfil</h2><p class='descricao-secao'>Autodidata com gosto por desafios, vontade de aprender sem medir esforços pra evoluir e provido de um apurado senso analítico que me possibilita econtrar métodos e estratégias que levam à solução mais eficiente de cada problema</p></div>");
+	$mpdf->WriteHTML("<div class='container-nome'>
+		<div class='nome'>Salomão Cruz</div>
+		<span class='cargo o-m'>Estudante de Engenharia da Computação</span>
+	</div>");
+	$mpdf->WriteHTML("<div class='container-secao'><h2 class='titulo-sessao'>Perfil</h2><p class='descricao-secao'>Autodidata com gosto por desafios, vontade de aprender sem medir esforços pra evoluir e provido de um apurado senso analítico que me possibilita econtrar métodos e estratégias que levam à solução mais eficiente de cada problema</p></div>");
+	$mpdf->WriteHTML("<div class='container-secao'><h2 class='titulo-secao'>Formação Acadêmica</h2><div class='formacao'>Engenharia da Computação, Universidade Federal do Amazonas, Manaus</div><div class='periodos'>MARÇO 2019 - DEZEMBRO 2023</div></div>");
 	$mpdf->WriteHTML("<div class='container-secao'>
 						<h2 class='titulo-secao'>Competências</h2>
 						<ul>
@@ -162,7 +181,6 @@
 						</ul>
 					</div>");
 	$mpdf->WriteHTML("<div class='container-secao'><h2 class='titulo-secao'>Experiência Profissional</h2><span class='titulo-sub-secao'>Desenvolvedor Full Stack</span><span class='instituicao-curso' style='font-size: 14pt;'>, Agiliza Zap</span><span class='instituicao-curso' style='font-size: 14pt;'> &bull; 04/2021 - 09/2021<ul><li>Manutenção da API do software desenvolvida em Node.js</li><li>Manutenção do código-fonte do software em Visual Basic</li><li>Desenvolvimento de um painel de controle integrado, utilizando PHP com o framework Laravel</li></ul></div>");
-	$mpdf->WriteHTML("<div class='container-secao'><h2 class='titulo-secao'>Formação Acadêmica</h2><ul class='ul-formacao'><li><strong>Graduação:</strong> Engenharia da Computação</li><li><strong>Instituição: </strong>Universidade Federal do Amazonas - Manaus, AM</li><li><strong>Período: </strong> 03/2019 - Em andamento</li></ul></div>");
 	$mpdf->WriteHTML("<div class='container-secao prox-pagina'><h2 class='titulo-secao'>Cursos Complementares</h2>
 		<ul>
 			<li class='titulo-sub-secao'>Introdução ao MongoDB e Bancos de Dados NoSQL, <span class='instituicao-curso'>Digital Innovation One Inc.</span></li>
