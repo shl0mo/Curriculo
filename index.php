@@ -45,7 +45,7 @@
 			width: 25%;
 			height: 100%;
 			padding: 30px;
-			left: 556px;
+			left: 536px;
 			z-index: 10;
 		}
 		
@@ -101,6 +101,31 @@
 		.box-header {	
 			padding-bottom: 35px;
 		}
+		
+		.barra-habilidade {
+			position: relative;
+			background-color: white;
+			height: 6px;
+			padding: 0;
+		}
+		
+		.bg-b {
+			position: absolute;
+			width: 33px;
+			background-color: #03071e;	
+		}
+		
+		tr, td, table {
+			border: 1px solid #03071e;
+		}
+		
+		td {
+			padding: 2px;
+		}
+		
+		td {
+			width: 33px;
+		}
 		</style>");
 	$mpdf->WriteHTML("<body>");
 	$mpdf->WriteHTML("<div class='container-header'>
@@ -113,16 +138,181 @@
 			<div class='titulo-header'>Websites</div>
 			<a href='https://portfolio-r051u44g0-shl0mo.vercel.app/'>Portfólio</a>
 		</div>
-		<div class='box-header flex-column'>
+		<div class='box-header'>
 			<div class='titulo-header'>Redes Sociais</div>
 			<div><a href='https://linkedin.com/in/salomao-cruz/'>LinkdeIn</a></div>
 			<div><a href='https://github.com/shl0mo/'>GitHub</a></div>
 		</div>
 		<div class='box-header'>
 			<div class='titulo-header'>Competências</div>
+			<span>HTML5</span>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<span>CSS3</span>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>
+			<span>JavaScript</span>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<span>JQuery</span>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>
+			<span>React.js</span>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>			
+			<span>Vue.js</span>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<span>Node.js</span>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<span>Express.js</span>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<span>MongoDB</span>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>
+			<span>MySQL</span>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>
+			<span>PostgreSQL</span>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>
+			<span>PHP</span>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<span>TypeScript</span>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>
 		</div>
 		<div class='box-header'>
 			<div class='titulo-header'>Idiomas</div>
+			<span>Inglês</span>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>
+			<span>Italiano</span>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+					<td class='bg-b'></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>
 		</div>
 	</div>");
 	$mpdf->WriteHTML("<div class='container-nome'>
