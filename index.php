@@ -328,7 +328,7 @@
 			<h2 class='titulo-sessao'>Formação Acadêmica</h2>
 			<div class='subtitulo-sessao'>Engenharia da Computação, Universidade Federal do Amazonas, Manaus</div>
 			<div class='periodos'>Março 2019 - Dezembro 2023</div>
-			<p class='descricao-sessao'>Atualmente faço Engenharia da Computação na Universidade Federal do Amazonas. Composto tanto disciplinhas de hardware quanto de software e com um bom aprofundamento em códigos, apresentando algoritmos e estruturas de dados avançados, projetos de programas e inteligência artificial, o curso se mostra bem completo.</p>
+			<p class='descricao-sessao'>Atualmente faço Engenharia da Computação na Universidade Federal do Amazonas. Composto tanto por disciplinhas de hardware quanto de software e com um bom aprofundamento em códigos, apresentando algoritmos e estruturas de dados avançados, projetos de programas e inteligência artificial, o curso se mostra bem completo.</p>
 		</div>
 	
 		<span>
