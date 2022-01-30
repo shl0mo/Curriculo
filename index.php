@@ -47,6 +47,8 @@
 			padding: 30px;
 			left: 536px;
 			z-index: 10;
+			color: white;
+			padding-top: 80px;
 		}
 		
 		.container-sessao {
@@ -57,15 +59,11 @@
 		}
 		
 		.descricao-sessao {
-			text-align: justify;
+			
 			margin-bottom: 0px;
 			margin-top: 7px;
 		}
-		
-		.descricao-curso {
-			text-align: justify;
-		}
-				
+			
 		.cargo {
 			padding-top: 10px;
 			color: gray;
@@ -84,10 +82,6 @@
 			margin-bottom: 10px;
 		}
 		
-		.container-header {
-			color: white;
-			padding-top: 150px;
-		}
 		
 		a {
 			color: white;
@@ -96,6 +90,7 @@
 		.titulo-header {
 			font-weight: bold;
 			font-size: 12pt;
+			padding-bottom: 3px;
 		}
 		
 		.box-header {	
@@ -126,6 +121,11 @@
 		td {
 			width: 33px;
 		}
+		
+		
+		.label-habilidade {
+			margin-top: 6px;
+		}
 		</style>");
 	$mpdf->WriteHTML("<body>");
 	$mpdf->WriteHTML("<div class='container-header'>
@@ -145,7 +145,7 @@
 		</div>
 		<div class='box-header'>
 			<div class='titulo-header'>Competências</div>
-			<span>HTML5</span>
+			<div class='label-habilidade'>HTML5</div>
 			<table class='barra-habilidade'>
 				<tr>
 					<td></td>
@@ -156,29 +156,7 @@
 					<td></td>
 				</tr>
 			</table>
-			<span>CSS3</span>
-			<table class='barra-habilidade'>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class='bg-b'></td>
-				</tr>
-			</table>
-			<span>JavaScript</span>
-			<table class='barra-habilidade'>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-			</table>
-			<span>JQuery</span>
+			<div class='label-habilidade'>CSS3</div>
 			<table class='barra-habilidade'>
 				<tr>
 					<td></td>
@@ -189,7 +167,29 @@
 					<td class='bg-b'></td>
 				</tr>
 			</table>
-			<span>React.js</span>
+			<div class='label-habilidade'>JavaScript</div>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<div class='label-habilidade'>JQuery</div>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>
+			<div class='label-habilidade'>React.js</div>
 			<table class='barra-habilidade'>
 				<tr>
 					<td></td>
@@ -200,7 +200,7 @@
 					<td class='bg-b'></td>
 				</tr>
 			</table>			
-			<span>Vue.js</span>
+			<div class='label-habilidade'>Vue.js</div>
 			<table class='barra-habilidade'>
 				<tr>
 					<td></td>
@@ -211,7 +211,7 @@
 					<td></td>
 				</tr>
 			</table>
-			<span>Node.js</span>
+			<div class='label-habilidade'>Node.js</div>
 			<table class='barra-habilidade'>
 				<tr>
 					<td></td>
@@ -222,7 +222,7 @@
 					<td></td>
 				</tr>
 			</table>
-			<span>Express.js</span>
+			<div class='label-habilidade'>Express.js</div>
 			<table class='barra-habilidade'>
 				<tr>
 					<td></td>
@@ -233,29 +233,7 @@
 					<td></td>
 				</tr>
 			</table>
-			<span>MongoDB</span>
-			<table class='barra-habilidade'>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class='bg-b'></td>
-				</tr>
-			</table>
-			<span>MySQL</span>
-			<table class='barra-habilidade'>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td class='bg-b'></td>
-					<td class='bg-b'></td>
-				</tr>
-			</table>
-			<span>PostgreSQL</span>
+			<div class='label-habilidade'>MongoDB</div>
 			<table class='barra-habilidade'>
 				<tr>
 					<td></td>
@@ -266,7 +244,29 @@
 					<td class='bg-b'></td>
 				</tr>
 			</table>
-			<span>PHP</span>
+			<div class='label-habilidade'>MySQL</div>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>
+			<div class='label-habilidade'>PostgreSQL</div>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>
+			<div class='label-habilidade'>PHP</div>
 			<table class='barra-habilidade'>
 				<tr>
 					<td></td>
@@ -277,7 +277,7 @@
 					<td></td>
 				</tr>
 			</table>
-			<span>TypeScript</span>
+			<div class='label-habilidade'>TypeScript</div>
 			<table class='barra-habilidade'>
 				<tr>
 					<td></td>
@@ -291,7 +291,7 @@
 		</div>
 		<div class='box-header'>
 			<div class='titulo-header'>Idiomas</div>
-			<span>Inglês</span>
+			<div class='label-habilidade'>Inglês</div>
 			<table class='barra-habilidade'>
 				<tr>
 					<td></td>
@@ -302,7 +302,7 @@
 					<td class='bg-b'></td>
 				</tr>
 			</table>
-			<span>Italiano</span>
+			<div class='label-habilidade'>Italiano</div>
 			<table class='barra-habilidade'>
 				<tr>
 					<td></td>
@@ -345,9 +345,11 @@
 			<div class='subtitulo-sessao'>Bootcamp Eduzz FullStack Developer #2, Digital Innovation One.Inc</div>
 			<div class='periodos mb-10'>Dezembro 2021 - Janeiro 2022</div>
 			<div class='subtitulo-sessao'>Curso Web Moderno, COD3R</div>
-			<div class='periodos mb-10'>Junho 2021 - Julho 2021</div>
+			<div class='periodos mb-10'>Junho 2021 - Agosto 2021</div>
 			<div class='subtitulo-sessao'>Curso Desenvolvimento Web 2.0, Danki Code</div>
-		<div class='periodos'>Abril 2021 - Abril 2021</div>
+			<div class='periodos mb-10'>Junho 2021 - Julho 2021</div>
+			<div class='subtitulo-sessao'>PHP Jedai, Danki Code</div>
+			<div class='periodos'>Março 2021 - Abril 2021</div>
 	</div>");
 	$mpdf->WriteHTML("</body>");
 	$mpdf->Output();
