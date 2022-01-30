@@ -49,7 +49,7 @@
 			width: 25%;
 			height: 100%;
 			padding: 20px;
-			left: 555px;
+			left: 556px;
 			z-index: 10;
 		}
 		
@@ -87,12 +87,33 @@
 			margin-bottom: 10px;
 		}
 		
-		.mt-10 {
-			padding-botom: 0px;
+		.container-header {
+			color: white;
+		}
+		
+		a {
+			color: white;
 		}
 		</style>");
 	$mpdf->WriteHTML("<body>");
 	$mpdf->WriteHTML("<div class='container-header'>
+		<div class='box-header'>
+			<div class='titulo-header'>Dados Pessoais</div>
+			<div>(92) 98115-2683</div>
+			<a href='mailto:scc@icomp.ufam.edu.br?'>scc@icomp.ufam.edu.br</a>
+		</div>
+		<div class='box-header'>
+			<div class='titulo-header'>Websites</div>
+			<a href='https://portfolio-r051u44g0-shl0mo.vercel.app/'>Portfólio</a>
+		</div>
+		<div class='box-header flex-column'>
+			<div class='titulo-header'>Redes Sociais</div>
+			<div><a href='https://linkedin.com/in/salomao-cruz/'>LinkdeIn</a></div>
+			<div><a href='https://github.com/shl0mo/'>GitHub</a></div>
+		</div>
+		<div class='box-header'>
+			<div class='titulo-header'>Competências</div>
+		</div>
 	</div>");
 	$mpdf->WriteHTML("<div class='container-nome'>
 		<div class='nome'>Salomão Cruz</div>
@@ -111,11 +132,11 @@
 		</div>
 	
 		<span>
-		<div class='container-sessao mt-10'>
+		<div class='container-sessao'>
 			<h2 class='titulo-sessao'>Experiência Profissional</h2>
 			<div class='subtitulo-sessao'>Desenvolvedor Full Stack, Freelance, Manaus</div>
 			<div class='periodos'>Janeiro 2020 - Janeiro 2022</div>
-			<p class='descricao-sessao mt-10'>Trabalhei como desenvolvedor Full-Stack freelancer por dois anos. Desenvolvi diversos projetos para web, desde jogos, landing pages e sistemas completos. Pude aplicar meus conhecimentos de HTML5, CSS3, Javascript, PHP e em bibliotecas e frameworks, sobretudo os de JavaScript.</p>
+			<p class='descricao-sessao'>Trabalhei como desenvolvedor Full-Stack freelancer por dois anos. Desenvolvi diversos projetos para web, desde landing pages, jogos até sistemas completos. Pude aplicar meus conhecimentos em HTML5, CSS3, Javascript, PHP e em bibliotecas e frameworks, sobretudo os de JavaScript.</p>
 		</div>
 		</span>
 		
