@@ -1,7 +1,7 @@
 <?php
-	include('vendor/autoload.php');
+	require_once __DIR__.'/vendor/autoload.php';
 	
-	$mpdf = new \Mpdf\Mpdf();
+	$mpdf = new Mpdf\Mpdf();
 	$mpdf->WriteHTML("<style>
 		* {
 			margin: 0;

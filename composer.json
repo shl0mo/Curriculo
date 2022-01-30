@@ -1,0 +1,12 @@
+{
+    "name": "linuxuser/curriculo",
+    "require": {
+        "mpdf/mpdf": "8.0.4"
+    },
+    "authors": [
+        {
+            "name": "shl0mo",
+            "email": "salomao.dacostacruz@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+
+Fatal error: Uncaught ErrorException: preg_match_all(): Compilation failed: unrecognised compile-time option bit(s) at offset 0 in /usr/share/php/Symfony/Component/Console/Formatter/OutputFormatter.php:147
+Stack trace:
+#0 [internal function]: Composer\Util\ErrorHandler::handle()
+#1 /usr/share/php/Symfony/Component/Console/Formatter/OutputFormatter.php(147): preg_match_all()
+#2 /usr/share/php/Symfony/Component/Console/Formatter/OutputFormatter.php(135): Symfony\Component\Console\Formatter\OutputFormatter->formatAndWrap()
+#3 /usr/share/php/Symfony/Component/Console/Output/Output.php(157): Symfony\Component\Console\Formatter\OutputFormatter->format()
+#4 /usr/share/php/Symfony/Component/Console/Output/Output.php(132): Symfony\Component\Console\Output\Output->write()
+#5 /usr/share/php/Symfony/Component/Console/Application.php(827): Symfony\Component\Console\Output\Output->writeln()
+#6 /usr/share/php/Symfony/Component/Console/Application.php(154): Symfony\Component\Console\Application->renderThrowable()
+#7 /usr/share/php/Symfon in /usr/share/php/Symfony/Component/Console/Formatter/OutputFormatter.php on line 147
