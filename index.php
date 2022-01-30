@@ -199,8 +199,8 @@
 					<td></td>
 					<td class='bg-b'></td>
 				</tr>
-			</table>			
-			<div class='label-habilidade'>Bancos de dados não relacionais</div>
+			</table>
+			<div class='label-habilidade'>Análise Exploratória de Dados</div>
 			<table class='barra-habilidade'>
 				<tr>
 					<td></td>
@@ -220,6 +220,17 @@
 					<td></td>
 					<td></td>
 					<td class='bg-b'></td>
+				</tr>
+			</table>
+			<div class='label-habilidade'>Bancos de dados não relacionais</div>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
 				</tr>
 			</table>
 		</div>
