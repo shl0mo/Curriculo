@@ -32,10 +32,6 @@
 			margin-bottom: 5px;
 		}
 		
-		.o-m {
-			color: gray;
-		}
-		
 		.titulo-sessao {
 			color: black;
 			font-size: 15pt;
@@ -48,7 +44,7 @@
 			background-color: #03071e;
 			width: 25%;
 			height: 100%;
-			padding: 20px;
+			padding: 30px;
 			left: 556px;
 			z-index: 10;
 		}
@@ -72,6 +68,7 @@
 				
 		.cargo {
 			padding-top: 10px;
+			color: gray;
 		}
 		
 		.subtitulo-sessao {
@@ -89,10 +86,20 @@
 		
 		.container-header {
 			color: white;
+			padding-top: 150px;
 		}
 		
 		a {
 			color: white;
+		}
+		
+		.titulo-header {
+			font-weight: bold;
+			font-size: 12pt;
+		}
+		
+		.box-header {	
+			padding-bottom: 35px;
 		}
 		</style>");
 	$mpdf->WriteHTML("<body>");
@@ -114,14 +121,17 @@
 		<div class='box-header'>
 			<div class='titulo-header'>Competências</div>
 		</div>
+		<div class='box-header'>
+			<div class='titulo-header'>Idiomas</div>
+		</div>
 	</div>");
 	$mpdf->WriteHTML("<div class='container-nome'>
 		<div class='nome'>Salomão Cruz</div>
-		<span class='cargo o-m'>Estudante de Engenharia da Computação</span>
+		<span class='cargo'>Estudante de Engenharia da Computação</span>
 	</div>");
 	$mpdf->WriteHTML("<div class='container-sessao'>
 				<h2 class='titulo-sessao'>Perfil</h2>
-					<p class='descricao-sessao'>Autodidata com gosto por desafios, vontade de aprender sem medir esforços pra evoluir e provido de um apurado senso analítico que me possibilita econtrar métodos e estratégias que levam à solução mais eficiente de cada problema.</p>
+					<p class='descricao-sessao'>Autodidata com gosto por desafios, vontade de aprender sem medir esforços pra evoluir e com um apurado senso analítico que me possibilita econtrar métodos e estratégias que levam à solução mais eficiente de cada problema.</p>
 	</div>");
 	$mpdf->WriteHTML("
 		<div class='container-sessao'>
