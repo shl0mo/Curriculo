@@ -41,14 +41,14 @@
 		
 		.container-header {
 			position: absolute;
-			background-color: #03071e;
+			background-color: rgb(89, 40, 89);
 			width: 25%;
 			height: 100%;
 			padding: 30px;
 			left: 536px;
 			z-index: 10;
 			color: white;
-			padding-top: 130px;
+			padding-top: 80px;
 		}
 		
 		.container-sessao {
@@ -107,11 +107,11 @@
 		.bg-b {
 			position: absolute;
 			width: 33px;
-			background-color: #03071e;	
+			background-color: rgb(89, 40, 89);	
 		}
 		
 		tr, td, table {
-			border: 1px solid #03071e;
+			border: 1px solid #000;
 		}
 		
 		td {
@@ -124,7 +124,7 @@
 		
 		
 		.label-habilidade {
-			margin-top: 8px;
+			margin-top: 6px;
 		}
 		</style>");
 	$mpdf->WriteHTML("<body>");
@@ -145,7 +145,7 @@
 		</div>
 		<div class='box-header'>
 			<div class='titulo-header'>Competências</div>
-			<div class='label-habilidade'>Python</div>
+			<div class='label-habilidade'>HTML5</div>
 			<table class='barra-habilidade'>
 				<tr>
 					<td></td>
@@ -156,7 +156,106 @@
 					<td></td>
 				</tr>
 			</table>
-			<div class='label-habilidade'>R</div>
+			<div class='label-habilidade'>CSS3</div>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>
+			<div class='label-habilidade'>JavaScript</div>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<div class='label-habilidade'>React.js</div>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>			
+			<div class='label-habilidade'>Vue.js</div>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<div class='label-habilidade'>Node.js</div>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<div class='label-habilidade'>MongoDB</div>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>
+			<div class='label-habilidade'>MySQL</div>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>
+			<div class='label-habilidade'>PostgreSQL</div>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class='bg-b'></td>
+				</tr>
+			</table>
+			<div class='label-habilidade'>PHP</div>
+			<table class='barra-habilidade'>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+			<div class='label-habilidade'>TypeScript</div>
 			<table class='barra-habilidade'>
 				<tr>
 					<td></td>
@@ -178,18 +277,7 @@
 					<td></td>
 				</tr>
 			</table>
-			<div class='label-habilidade'>Numpy</div>
-			<table class='barra-habilidade'>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-			</table>
-			<div class='label-habilidade'>SQL</div>
+			<div class='label-habilidade'>OpvenCV</div>
 			<table class='barra-habilidade'>
 				<tr>
 					<td></td>
@@ -200,40 +288,19 @@
 					<td class='bg-b'></td>
 				</tr>
 			</table>
-			<div class='label-habilidade'>Análise Exploratória de Dados</div>
+			<div class='label-habilidade'>TensorFlow</div>
 			<table class='barra-habilidade'>
 				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-				</tr>
-			</table>
-			<div class='label-habilidade'>Bancos de dados relacionais</div>
-			<table class='barra-habilidade'>
-				<tr>
-					<td></td>
 					<td></td>
 					<td></td>
 					<td></td>
 					<td></td>
 					<td class='bg-b'></td>
-				</tr>
-			</table>
-			<div class='label-habilidade'>Bancos de dados não relacionais</div>
-			<table class='barra-habilidade'>
-				<tr>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
-					<td></td>
+					<td class='bg-b'></td>
 				</tr>
 			</table>
 		</div>
+
 		<div class='box-header'>
 			<div class='titulo-header'>Idiomas</div>
 			<div class='label-habilidade'>Inglês</div>
@@ -266,36 +333,39 @@
 	</div>");
 	$mpdf->WriteHTML("<div class='container-sessao'>
 				<h2 class='titulo-sessao'>Perfil</h2>
-					<p class='descricao-sessao'>Autodidata com gosto por desafios, vontade de aprender sem medir esforços pra evoluir e com um apurado senso analítico que me possibilita econtrar métodos e estratégias que levam à solução mais eficiente de cada problema.</p>
+					<p class='descricao-sessao'>Autodidata com gosto por desafios, vontade de aprender e com um apurado senso analítico que me possibilita econtrar métodos e estratégias que levam à solução mais eficiente de cada problema.</p>
 	</div>");
 	$mpdf->WriteHTML("
 		<div class='container-sessao'>
 			<h2 class='titulo-sessao'>Formação Acadêmica</h2>
 			<div class='subtitulo-sessao'>Engenharia da Computação, Universidade Federal do Amazonas, Manaus</div>
-			<div class='periodos'>Março 2019 - Dezembro 2023</div>
-			<p class='descricao-sessao'>Atualmente faço Engenharia da Computação na Universidade Federal do Amazonas. Composto tanto por disciplinhas de hardware quanto de software e com um bom aprofundamento em códigos, apresentando algoritmos e estruturas de dados avançados, projetos de programas e inteligência artificial, o curso se mostra bem completo. Também participo do curso de Fotografia Computacional fruto da parceria da Ufam com a Motorola.</p>
+			<div class='periodos'>Março 2019 - Dezembro 2024</div>
 		</div>
 	
 		<span>
 		<div class='container-sessao'>
-			<h2 class='titulo-sessao'>Experiência Profissional</h2>
-			<div class='subtitulo-sessao'>Desenvolvedor Full Stack, Freelance, Manaus</div>
-			<div class='periodos'>Janeiro 2020 - Janeiro 2022</div>
-			<p class='descricao-sessao'>Trabalhei como desenvolvedor Full-Stack freelancer por dois anos. Desenvolvi diversos projetos para web, desde landing pages, jogos, até sistemas completos. Pude aplicar meus conhecimentos em HTML5, CSS3, Javascript, PHP e em bibliotecas e frameworks, sobretudo os de JavaScript.</p>
+			<h2 class='titulo-sessao'>Experiência</h2>
+			<div class='subtitulo-sessao'>Projeto SUPER, Pesquisador, Manaus</div>
+			<div class='periodos'>Junho 2021 - Maio 2022</div>
+			<p class='descricao-sessao'>Atualmente sou bolsista pesquisador no projeto SUPER, trabalhando com Ciência de Dados. Gero relatórios sobre o desempenho e evasão dos alunos da UFAM, buscando de prever iminentes evasões acadêmicas. No processo, utilizo Pandas, Pandera, Matplotlib e Seaborn.</p>
 		</div>
 		</span>
 		
 		<div class='container-sessao'>
 			<h2 class='titulo-sessao'>Cursos</h2>
-			<div class='subtitulo-sessao'>Bootcamp Cognizant Cloud Data Engineer, Digital Innovation One.Inc</div>
-			<div class='periodos mb-10'>Outubro 2021 - Novembro 2021</div>
+			<div class='subtitulo-sessao'>Capacitação Profissional em Fotografia Computacional, Instituto de Computação/UFAM</div>
+			<div class='periodos mb-10'>Setembro 2021 - Julho 2022</div>
+			<div class='subtitulo-sessao'>Bootcamp FullStack Developer #2, Digital Innovation One.Inc</div>
+			<div class='periodos mb-10'>Dezembro 2021 - Janeiro 2022</div>
+			<div class='subtitulo-sessao'>Bootcamp Cloud Data Engineer, Digital Innovation One.Inc</div>
+			<div class='periodos mb-10'>Agosto 2021 - Novembro 2021</div>
 			<div class='subtitulo-sessao'>Data Science Foundations, VAI Academy</div>
 			<div class='periodos mb-10'>Agosto 2021</div>
-			<div class='subtitulo-sessao'>Modelagem de Dados, Fundação Bradesco</div>
-			<div class='periodos mb-10'>Setembro 2021</div>
-			<div class='subtitulo-sessao'>Fundamentos de ETL com Python</div>
-			<div class='periodos'>Novembro 2021</div>
+			<div class='subtitulo-sessao'>Curso Web Moderno, COD3R</div>
+			<div class='periodos mb-10'>Junho 2021 - Agosto 2021</div>
+			<div class='subtitulo-sessao'>Curso Desenvolvimento Web 2.0, Danki Code</div>
+			<div class='periodos'>Junho 2021 - Julho 2021</div>
 	</div>");
 	$mpdf->WriteHTML("</body>");
 	$mpdf->Output();
-?>
+?>x
